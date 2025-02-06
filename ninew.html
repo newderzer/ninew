@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="utf-8">
+    <title> เป็นแฟนกันมั้ย </title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(213, 249, 253);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #3498db; /* เปลี่ยนสีของ <h1> เป็นสีน้ำเงิน */
+        }
+
+        div {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            width: 250px; /* กำหนดความกว้างของลิงก์ */
+            height: 250px; /* กำหนดความสูงของลิงก์ */
+            padding: 20px; /* เพิ่มพื้นที่ภายในลิงก์ */
+            text-align: center; /* จัดการให้อยู่ตรงกลาง */
+             /* เพิ่มเส้นขอบ */
+            border-radius: 10px; /* เพิ่มมุมโค้ง */
+            margin-bottom: 110px;
+        }
+
+        img {
+            width: 100%; /* ปรับขนาดรูปให้เต็มพื้นที่ของ <a> */
+            height: 80%; /* กำหนดให้รูปมีความสูงเต็มพื้นที่ของ <a> */
+            border-radius: 10px; /* ทำมุมโค้งให้กับรูปภาพ */
+            object-fit: cover; /* ครอบคลุมพื้นที่โดยไม่บิดเบี้ยว */
+            margin-top: 50px;
+        }
+
+        /* เพิ่มการขยายรูปเมื่อ hover ที่ลิงก์ */
+        a:hover {
+            transform: scale(1.05); /* ขยายเมื่อ hover */
+            transition: 0.3s;
+        }
+
+    </style>
+</head>
+<body>
+    <b>
+    <img src="image/4.gif" alt="คำอธิบายรูปภาพ">
+        </b>
+    <h1> เป็นแฟนกันมั้ย </h1>
+
+    <div>
+        <!-- รูปภาพที่เชื่อมโยงไปที่ end.html -->
+        <a href="end.html">
+            <img src="image/5.gif" alt="ไปยังหน้า End">
+        </a>
+        
+        <!-- รูปภาพที่เชื่อมโยงไปที่ ninew.html -->
+        <a href="ninew.html">
+            <img src="image/6.gif" alt="ไปยังหน้า New">
+        </a>
+    </div>
+
+</body>
+</html>
